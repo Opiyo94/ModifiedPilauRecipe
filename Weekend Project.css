@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+ul{
+    list-style: none;
+
+}
+.nav-link ul{
+    display: flex;
+    gap: 28px;
+}
+header h2 span{
+color: #f05d18;
+gap: 28px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-link{
+color: #f05d18;
+}
+.homepage{
+    background-image: url(https://images.pexels.com/photos/5768972/pexels-photo-5768972.jpeg?auto=compress&cs=tinysrgb&w=400);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-left: 20px;
+}
+.homepage h1{
+    font-size: 50px;
+}
+.homepage p{
+width: 21%;
+font-size: 16px;
+}
+.homebutton button{
+    padding: 6px 10px;
+}
+.homebutton .order1{
+    border: none;
+    outline: none;
+    background-color: #f05d18;
+    color: white;
+}
+.homebutton .order1:hover{
+    background: white;
+    color: #f05d18;
+}
+.homebutton .order2:hover{
+    background-color: white;
+    border-color: white;
+    color: white;
+}
+main>section{
+    margin: 10%;
+    gap: 5%;
+}
+main>section>.About{
+padding-top: 5%;
+}
+main>section>.About>button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-style: none;
+}
+main>section>.About>button:hover{
+    background-color: white;
+    color: orange;
+}
+.OurService{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+.Fours{
+    display: flex;
+    gap: 10%;
+    font-size: 20px;
+}
+.Fours>#North{
+    background-color: grey;
+    padding: 3rem;
+}
+.Fours>#North:hover{
+    color: white;
+    background-color: orange;
+}
+.Fours>#South{
+    background-color: grey;
+    padding: 3rem;
+}
+.Fours>#South:hover{
+    color: white;
+    background-color: orange;
+}
+.Fours>#West{
+    background-color: grey;
+    padding: 3rem;
+}
+.Fours>#West:hover{
+    color: white;
+    background-color: orange;
+}
+.icon{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    align-items: center ;
+    border-radius: 50%;
+    justify-content: center;
+}
+.icon{
+    background-color: white;
+    color: black;
+}
+.MenuSection{
+    text-align: center;
+}
+#images{
+    display: flex;
+    gap: 50px;
+}
+#image1 img{
+    height: 200px;
+}
+#image2 img{
+    height: 200px;
+}
+#image3 img{
+    height: 200px;
+}
+#image4 img{
+    height: 200px;
+}
+.WhatOurCustomersSay h3{
+text-align: left;
+padding: 25px;
+}
+.WhatOurCustomersSay #image1{
+    height: 300px;
+    /*background-color: #f05d18;*/
+}
+.WhatOurCustomersSay #customer1 img{
+height: 50px;
+}
+.WhatOurCustomersSay #customer2 img{
+    height: 50px;
+}
+.WhatOurCustomersSay #customers{
+    display: flex;
+    gap: 20%;
+    padding-left: 25px;
+}
+.WhatOurCustomersSay #Review{
+    display: flex;
+    padding-left: 10px;
+    background-color: #f05d18;
+}
+.WhatOurCustomersSay #Review div{
+padding-left: 50px;
+
+}
+footer{
+    background-color: rgb(30,10,0)
+}
+footer h2 span{
+    color: #f05d18;
+    gap: 28px;
+    }
+    .FooterSection{
+        display: flex;
+        gap: 70px;
+    }
+    .FooterSection div p{
+        color: rgb(209, 209, 209);
+    }
+    .foot{
+        /*text-align: center;*/
+        color: rgb(209, 209, 209);
+        display: flex;
+        gap: 150px;
+       padding-left: 400px;
+    }
+    .foot #social{
+        display: flex;
+        gap: 10px;
+        
+    }
