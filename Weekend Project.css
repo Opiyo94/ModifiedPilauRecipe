@@ -205,5 +205,6 @@ footer h2 span{
     .foot #social{
         display: flex;
         gap: 10px;
+        background-color: white;
         
     }
